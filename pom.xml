@@ -8,21 +8,18 @@
         <developerConnection>https://github.com/uwburn/hibernate-util.git</developerConnection>
     </scm>
 
-    <groupId>it.mgt</groupId>
-    <artifactId>hibernate-util</artifactId>
+    <name>hibernate-util</name>
+    <groupId>it.mgt.util</groupId>
+    <artifactId>hibernate</artifactId>
     <version>1.0.0</version>
-
-    <properties>
-        <hibernate.version>5.2.12.Final</hibernate.version>
-    </properties>
 
     <dependencies>
         <!-- Hibernate -->
         <dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.2.12.Final</version>
+        </dependency>
     </dependencies>
 
     <build>
