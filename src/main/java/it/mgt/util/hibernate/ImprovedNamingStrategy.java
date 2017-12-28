@@ -1,4 +1,4 @@
-package it.mgt.hibernate.util;
+package it.mgt.util.hibernate;
 
 import org.hibernate.boot.model.naming.Identifier;
 import org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl;
