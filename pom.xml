@@ -11,7 +11,7 @@
     <name>hibernate-util</name>
     <groupId>it.mgt.util</groupId>
     <artifactId>hibernate</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,7 +24,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>5.2.12.Final</version>
+            <version>5.2.14.Final</version>
         </dependency>
     </dependencies>
 
