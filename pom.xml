@@ -11,12 +11,13 @@
     <name>hibernate-util</name>
     <groupId>it.mgt.util</groupId>
     <artifactId>hibernate</artifactId>
-    <version>1.1.2</version>
+    <version>1.2.0</version>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <jackson.version>2.11.0</jackson.version>
     </properties>
 
     <dependencies>
@@ -25,6 +26,12 @@
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
             <version>5.2.14.Final</version>
+        </dependency>
+        <!-- Jackson -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
         </dependency>
     </dependencies>
 
